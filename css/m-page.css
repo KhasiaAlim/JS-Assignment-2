@@ -25,6 +25,20 @@ a {
     color: var(--MAIN-COLOR-1);
 }
 
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    cursor: pointer;
+    width: 500px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: var(--MAIN-COLOR-1);
+}
+
 .buttons {
     display: flex;
     justify-content: space-around;
