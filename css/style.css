@@ -1,5 +1,52 @@
-/* ----------------- CSS ----------------- */
+/* ----------------- FONT-FAMILY (IMPORT) ----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ----------------- (ROOT) ----------------- */
+
+:root {
+    --MAIN-COLOR-1: #ffffff;
+    --MAIN-COLOR-2: #000000;
+}
+
+
+/* ----------------- BODY ----------------- */
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: var(--MAIN-COLOR-1);
+    text-align: center;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(34,0,0,1) 12%, rgba(83,0,0,1) 50%, rgba(84,0,0,1) 51%, rgba(149,0,0,1) 97%, rgba(116,0,0,1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: var(--MAIN-COLOR-1);
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    cursor: pointer;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.box:hover {
+    border-style: solid;
+    border-color: var(--MAIN-COLOR-1);
+}
+
+a {
+    text-decoration: none;
+    color: var(--MAIN-COLOR-1);
+}
+
+.box5 {
+    margin-bottom: 10px;
 }
