@@ -6,14 +6,17 @@ const password = 'Saylani';
 if (quiz1 === password) {
     alert('Correct! The password you entered matches the original password');
     document.write('Correct! The password you entered matches the original password');
+    console.log('Correct! The password you entered matches the original password');
 }
 else if (quiz1 === null || quiz1 === "") {
     alert('Please enter your password');
     document.write('Please enter your password');
+    console.log('Please enter your password');
 }
 else {
     alert('Incorrect password');
     document.write('Incorrect password');
+    console.log('Incorrect password');
 }
 
 // ------------------- //

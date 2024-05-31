@@ -14,5 +14,6 @@ else if (guessNum === guessNum2) {
 // -------------- //
 
 document.write('Secret Number was 4!');
+console.log('Secret Number was 4!');
 
 // -------------- //

@@ -5,10 +5,12 @@ const num = +prompt('Enter any number: ')
 if (num % 2 === 0) {
     alert(num + ' is an even number');
     document.write(num + ' is an even number' + '<br/>');
+    console.log(num + ' is an even number');
 }
 else {
     alert(num + ' is an odd number');
     document.write(num + ' is an odd number' + '<br/>');
+    console.log(num + ' is an even number');
 }
 
 // ------------------ //

@@ -7,26 +7,32 @@ const quiz3 = prompt('Enter the operation (+, -, *, /, %): ');
 if (quiz3 === '+') {
     alert('Result: ' + (quiz1 + quiz2));
     document.write('Result: ' + (quiz1 + quiz2));
+    console.log('Result: ' + (quiz1 + quiz2));
 }
 else if (quiz3 === '-') {
     alert('Result: ' + (quiz1 - quiz2));
     document.write('Result: ' + (quiz1 - quiz2));
+    console.log('Result: ' + (quiz1 - quiz2));
 }
 else if (quiz3 === '*') {
     alert('Result: ' + (quiz1 * quiz2));
     document.write('Result: ' + (quiz1 * quiz2));
+    console.log('Result: ' + (quiz1 * quiz2));
 }
 else if (quiz3 === '/') {
     alert('Result: ' + (quiz1 / quiz2));
     document.write('Result: ' + (quiz1 / quiz2));
+    console.log('Result: ' + (quiz1 / quiz2));
 }
 else if (quiz3 === '%') {
     alert('Result: ' + (quiz1 % quiz2));
     document.write('Result: ' + (quiz1 % quiz2));
+    console.log('Result: ' + (quiz1 % quiz2));
 }
 else {
     alert('Invalid operation!');
     document.write('Invalid operation!');
+    console.log('Invalid operation!');
 }
 
 // --------------------- //
